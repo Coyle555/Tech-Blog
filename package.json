@@ -1,34 +1,33 @@
 {
   "name": "tech-blog",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "The Tech Blog is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This application follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
+  "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/module-14-project-mvc.git"
+    "url": "git+https://github.com/larafoster/Tech-Blog-OSU.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/coding-boot-camp/module-14-project-mvc/issues"
-  },
-  "homepage": "https://github.com/coding-boot-camp/module-14-project-mvc#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
-    "bulma": "^0.9.0",
-    "connect-session-sequelize": "^6.1.1",
-    "dotenv": "^8.2.0",
+    "connect-flash": "^0.1.1",
+    "connect-session-sequelize": "^7.0.4",
+    "date-fns": "^2.23.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.4",
+    "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
-    "mysql2": "^2.1.0",
-    "nodemon": "^2.0.4",
-    "sequelize": "^5.21.13"
-  }
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "bugs": {
+    "url": "https://github.com/larafoster/Tech-Blog-OSU/issues"
+  },
+  "homepage": "https://github.com/larafoster/Tech-Blog-OSU#readme"
 }
